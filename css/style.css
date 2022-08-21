@@ -46,6 +46,10 @@ p {
   margin: 0;
 }
 
+ul {
+  list-style: none;
+}
+
 html {
   font-family: "Outfit", sans-serif;
   font-size: 18px;
@@ -110,15 +114,15 @@ section .cost_days {
   justify-content: space-between;
   margin-block: 0.8em;
 }
-section .cost_days > h2 {
+section .cost_days h2 {
   font-weight: 400;
   gap: 0.4em;
 }
-section .cost_days > p {
+section .cost_days p {
   font-weight: 300;
   gap: 0.3em;
 }
-section .cost_days > p > img {
+section .cost_days p > img {
   width: 18px;
 }
 section .owner-container {
